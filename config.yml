@@ -1,0 +1,15 @@
+# Path to FASTA file and it's bowtie2 index.
+DNA: '/home/ya76/Aedes_aegypti_data/AaeL5/genome/AaegL5.fa'
+INDEX: '/home/ya76/Aedes_aegypti_data/AaeL5/genome/index/hisat2'
+
+# Path to an uncompressed GTF file with all gene annotations.
+GTF: '/home/ya76/Aedes_aegypti_data/AaeL5/annotation/AaegL5.gtf'
+
+# Path to a output folder where files will be written.
+OUT_DIR: '/fs/cbsufsrv5/data2/ya76/Aedes.aegypti/Ae.aegypti-comprehensive-RNAseq.SnakemakeOutput'
+HOME_DIR: '/home/ya76/GitHub_Repositories/Ae.aegypti-comprehensive-RNAseq'
+WORK_DIR: '/workdir'
+
+# Path to a JSON file with samples and their corresponding FASTQ files.
+SE_SAMPLES_JSON: '/home/ya76/GitHub_Repositories/Ae.aegypti-comprehensive-RNAseq/samples_se.json'
+PE_SAMPLES_JSON: '/home/ya76/GitHub_Repositories/Ae.aegypti-comprehensive-RNAseq/samples_pe.json'
