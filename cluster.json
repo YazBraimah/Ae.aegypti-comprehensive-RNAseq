@@ -6,7 +6,7 @@
         "cores"     : 4,
         "bl"        : 4,
         "memory"    : "8G",
-        "time"      : "03:00:00"
+        "time"      : "00:30:00"
     },
     "fastqcSE": {
         "q"         : "regular.q@cbsubscb01,regular.q@cbsubscb02,regular.q@cbsubscb03,regular.q@cbsubscb04,regular.q@cbsubscb05,regular.q@cbsubscb06,regular.q@cbsubscb07,regular.q@cbsubscb08,regular.q@cbsubscb09,regular.q@cbsubscb10,regular.q@cbsubscb11,regular.q@cbsubscb12",
@@ -15,7 +15,7 @@
         "cores"     : 4,
         "bl"        : 4,
         "memory"    : "8G",
-        "time"      : "01:00:00"
+        "time"      : "00:15:00"
     },
     "fastqcPE": {
         "q"         : "regular.q@cbsubscb01,regular.q@cbsubscb02,regular.q@cbsubscb03,regular.q@cbsubscb04,regular.q@cbsubscb05,regular.q@cbsubscb06,regular.q@cbsubscb07,regular.q@cbsubscb08,regular.q@cbsubscb09,regular.q@cbsubscb10,regular.q@cbsubscb11,regular.q@cbsubscb12",
@@ -24,7 +24,7 @@
         "cores"     : 4,
         "bl"        : 4,
         "memory"    : "8G",
-        "time"      : "01:00:00"
+        "time"      : "00:30:00"
     },
     "hisat2_se_mapping": {
        "q"          : "regular.q@cbsubscb01,regular.q@cbsubscb02,regular.q@cbsubscb03,regular.q@cbsubscb04,regular.q@cbsubscb05,regular.q@cbsubscb06,regular.q@cbsubscb07,regular.q@cbsubscb08,regular.q@cbsubscb09,regular.q@cbsubscb10,regular.q@cbsubscb11,regular.q@cbsubscb12",
@@ -33,7 +33,7 @@
         "cores"     : 8,
         "bl"        : 8,
         "memory"    : "32G",
-        "time"      : "03:00:00"
+        "time"      : "00:30:00"
     },
     "hisat2_pe_mapping": {
        "q"          : "regular.q@cbsubscb01,regular.q@cbsubscb02,regular.q@cbsubscb03,regular.q@cbsubscb04,regular.q@cbsubscb05,regular.q@cbsubscb06,regular.q@cbsubscb07,regular.q@cbsubscb08,regular.q@cbsubscb09,regular.q@cbsubscb10,regular.q@cbsubscb11,regular.q@cbsubscb12",
@@ -42,7 +42,7 @@
         "cores"     : 8,
         "bl"        : 8,
         "memory"    : "32G",
-        "time"      : "03:00:00"
+        "time"      : "00:30:00"
     },
     "stringtie_assembly": {
        "q"          : "regular.q@cbsubscb01,regular.q@cbsubscb02,regular.q@cbsubscb03,regular.q@cbsubscb04,regular.q@cbsubscb05,regular.q@cbsubscb06,regular.q@cbsubscb07,regular.q@cbsubscb08,regular.q@cbsubscb09,regular.q@cbsubscb10,regular.q@cbsubscb11,regular.q@cbsubscb12",
@@ -51,7 +51,7 @@
         "cores"     : 8,
         "bl"        : 8,
         "memory"    : "32G",
-        "time"      : "02:00:00"
+        "time"      : "00:30:00"
     },
     "abundances": {
        "q"          : "regular.q@cbsubscb01,regular.q@cbsubscb02,regular.q@cbsubscb03,regular.q@cbsubscb04,regular.q@cbsubscb05,regular.q@cbsubscb06,regular.q@cbsubscb07,regular.q@cbsubscb08,regular.q@cbsubscb09,regular.q@cbsubscb10,regular.q@cbsubscb11,regular.q@cbsubscb12",
@@ -60,6 +60,6 @@
         "cores"     : 4,
         "bl"        : 4,
         "memory"    : "8G",
-        "time"      : "02:00:00"
+        "time"      : "00:30:00"
     }
 }
