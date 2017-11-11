@@ -1,4 +1,4 @@
-# Ae.aegypti-comprehensive-RNAseq
+# *Ae.aegypti* RNAseq data collection
 
 This repository contains an analysis workflow to process Ae. aegypti RNAseq data that is available through the Sequencing Read Archive (SRA). The current workflow uses RNAseq data from the following studies:
 
