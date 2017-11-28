@@ -16,7 +16,7 @@ The expression data for a given gene can be queried using a Shiny App. This is j
 
 3. Download the Shiny App file (`app.R`), the functions file (`functions.R`), and the data files and keep them in the same folder (~370MB). Those can be found [here](https://www.dropbox.com/sh/wiyv3vbc9q069ri/AACpuv4UHhyPIE9-oHcNUnz8a?dl=0)
 
-4. Now simply open the Shiny app file, `app.R`, and run the entire script. In 10-30 seconds a window will pop up with a lot to enter gene names.
+4. Now simply open the Shiny app file, `app.R`, and run the entire script. In 10-30 seconds a window will pop up with a slot to enter gene names.
 
 For now, the gene names you have to enter are those from the newest genome release (AaegL5). To obtain the newest release ID based on the older gene names (format AAEL#######), use the function `getLocId("old ID")`.
 
