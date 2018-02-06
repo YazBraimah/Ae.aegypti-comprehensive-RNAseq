@@ -76,8 +76,8 @@ rule all:
         join(OUT_DIR, 'MultiQC', 'multiqc_report.html'),
         join(OUT_DIR, 'StringTie', 'gffcmp.annotated.gtf'),
         join(OUT_DIR, 'ballgown', 'gene_counts.csv'), 
-        join(OUT_DIR, 'ballgown', 'transcript_counts.csv'),
-        join(OUT_DIR, 'cleanUp_complete')
+        join(OUT_DIR, 'ballgown', 'transcript_counts.csv')
+        # join(OUT_DIR, 'cleanUp_complete')
         
 ##--------------------------------------------------------------------------------------##
 ##--------------------------------------------------------------------------------------##
@@ -363,17 +363,17 @@ rule multiQC:
                 ' -o ' + join(OUT_DIR, 'MultiQC') + ' -d -dd 2 -l ' + join(OUT_DIR, 'MultiQC', 'summary_files.txt') +
                 ' > {log} 2>&1')
 
-## Rule to collate fastQC and HISAT2 outputs with multiQC
-rule clean_up:
-    input:
-        expand(join(OUT_DIR, 'HISAT-2', '{sample}', '{sample}' + '.csorted.bowtie2.bam'), sample = SAMPLES),
-        expand(join(OUT_DIR, 'fastQC', '{sample}' + '.R1_fastqc.html'), sample = SAMPLES),
-        expand(join(OUT_DIR, 'fastQC', '{sample}' + '.R2_fastqc.html'), sample = peSAMPLES),
-        join(OUT_DIR, 'ballgown', 'gene_counts.csv')
-    output:
-        join(OUT_DIR, 'cleanUp_complete')
-    message: 
-        """--- Cleaning Up """
-    run:
-        shell('rm -r ' + join(OUT_DIR, 'HISAT-2', '*', '*.csorted.bowtie2.bam'))
-        shell('touch ' + join(OUT_DIR) + 'cleanUp_complete')
+# ## Rule to collate fastQC and HISAT2 outputs with multiQC
+# rule clean_up:
+#     input:
+#         expand(join(OUT_DIR, 'HISAT-2', '{sample}', '{sample}' + '.csorted.bowtie2.bam'), sample = SAMPLES),
+#         expand(join(OUT_DIR, 'fastQC', '{sample}' + '.R1_fastqc.html'), sample = SAMPLES),
+#         expand(join(OUT_DIR, 'fastQC', '{sample}' + '.R2_fastqc.html'), sample = peSAMPLES),
+#         join(OUT_DIR, 'ballgown', 'gene_counts.csv')
+#     output:
+#         join(OUT_DIR, 'cleanUp_complete')
+#     message: 
+#         """--- Cleaning Up """
+#     run:
+#         shell('rm -r ' + join(OUT_DIR, 'HISAT-2', '*', '*.csorted.bowtie2.bam'))
+#         shell('touch ' + join(OUT_DIR) + 'cleanUp_complete')
