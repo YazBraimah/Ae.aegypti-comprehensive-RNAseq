@@ -33,7 +33,7 @@
         "cores"     : 8,
         "bl"        : 8,
         "memory"    : "32G",
-        "time"      : "02:00:00"
+        "time"      : "04:00:00"
     },
     "hisat2_pe_mapping": {
        "q"          : "regular.q",
@@ -42,7 +42,7 @@
         "cores"     : 8,
         "bl"        : 8,
         "memory"    : "32G",
-        "time"      : "02:00:00"
+        "time"      : "04:00:00"
     },
     "stringtie_assembly": {
        "q"          : "regular.q",
@@ -51,7 +51,7 @@
         "cores"     : 8,
         "bl"        : 8,
         "memory"    : "32G",
-        "time"      : "01:00:00"
+        "time"      : "03:00:00"
     },
     "abundances": {
        "q"          : "regular.q",
@@ -60,6 +60,6 @@
         "cores"     : 4,
         "bl"        : 4,
         "memory"    : "8G",
-        "time"      : "00:30:00"
+        "time"      : "01:00:00"
     }
 }
