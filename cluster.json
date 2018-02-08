@@ -6,7 +6,7 @@
         "cores"     : 4,
         "bl"        : 4,
         "memory"    : "8G",
-        "time"      : "00:30:00"
+        "time"      : "01:00:00"
     },
     "fastqcSE": {
         "q"         : "regular.q",
@@ -15,7 +15,7 @@
         "cores"     : 4,
         "bl"        : 4,
         "memory"    : "8G",
-        "time"      : "01:00:00"
+        "time"      : "02:00:00"
     },
     "fastqcPE": {
         "q"         : "regular.q",
@@ -24,7 +24,7 @@
         "cores"     : 4,
         "bl"        : 4,
         "memory"    : "8G",
-        "time"      : "01:00:00"
+        "time"      : "02:00:00"
     },
     "hisat2_se_mapping": {
        "q"          : "regular.q",
@@ -33,7 +33,7 @@
         "cores"     : 8,
         "bl"        : 8,
         "memory"    : "32G",
-        "time"      : "04:00:00"
+        "time"      : "06:00:00"
     },
     "hisat2_pe_mapping": {
        "q"          : "regular.q",
@@ -51,7 +51,7 @@
         "cores"     : 8,
         "bl"        : 8,
         "memory"    : "32G",
-        "time"      : "03:00:00"
+        "time"      : "04:00:00"
     },
     "abundances": {
        "q"          : "regular.q",
@@ -60,6 +60,6 @@
         "cores"     : 4,
         "bl"        : 4,
         "memory"    : "8G",
-        "time"      : "01:00:00"
+        "time"      : "03:00:00"
     }
 }
